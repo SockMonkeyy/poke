@@ -88,7 +88,7 @@ const clickCard = (e) => {
         }else {
             matches++;
             if(matches === 8) {
-                alert("WINNER RESET TO PLAY AGAIN");
+                console("WINNER RESET TO PLAY AGAIN");
             }
             firstPick = null;
             isPaused = false;
